@@ -1,0 +1,2 @@
+Prefix plugins/QuantileScore/example/
+Plugin QuantileScore inputfile subset.rds outputfile quantScore.pdf
