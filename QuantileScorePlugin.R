@@ -17,5 +17,6 @@ pdf(outputfile)
 ###################################################
 ### code chunk number 37: GOexpress-UsersGuide.Rnw:950-951
 ###################################################
+write.csv(BP.5$GO$ave_score, paste(outputfile, "csv", sep="."))
 quantiles_scores(result = BP.5)
 }
